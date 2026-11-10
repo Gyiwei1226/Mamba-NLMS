@@ -1,0 +1,42 @@
+{
+  "LMS": {
+    "steady_mse": 0.8145466534550494,
+    "steady_mse_db": -0.8908403626911103,
+    "avg_ms_per_step": 0.0025911808013916017
+  },
+  "NLMS": {
+    "steady_mse": 0.237994777011275,
+    "steady_mse_db": -6.234325737841273,
+    "avg_ms_per_step": 0.004057884216308594
+  },
+  "VSS-LMS": {
+    "steady_mse": 0.21032548940533094,
+    "steady_mse_db": -6.77108091853515,
+    "avg_ms_per_step": 0.009441566467285157
+  },
+  "RLS": {
+    "steady_mse": 0.8604489812421174,
+    "steady_mse_db": -0.6527487527470494,
+    "avg_ms_per_step": 0.01313023567199707
+  },
+  "Kalman": {
+    "steady_mse": 0.045212849738108435,
+    "steady_mse_db": -13.447381187889494,
+    "avg_ms_per_step": 0.02203397750854492
+  },
+  "MLP-NLMS": {
+    "steady_mse": 0.425169083978532,
+    "steady_mse_db": -3.7143832257223917,
+    "avg_ms_per_step": 0.03185715675354004
+  },
+  "LSTM-NLMS": {
+    "steady_mse": 0.11461889089722108,
+    "steady_mse_db": -9.407437982822756,
+    "avg_ms_per_step": 0.032695865631103514
+  },
+  "Mamba-NLMS": {
+    "steady_mse": 0.03821841713061486,
+    "steady_mse_db": -14.177273038240415,
+    "avg_ms_per_step": 0.05374789237976074
+  }
+}
